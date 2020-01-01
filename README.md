@@ -9,4 +9,4 @@ For maximum compatibility (Forensics, SIEM, Threathunting platforms) the followi
 - FUZZYHash
 - File ID (Type)
 - Filesize
-- Richheader Similarity hash (Added from 2020-01-01, if not found a "-" will be shown) 
+- Richheader Similarity hash (Added from 2020-01-01, if not found (i.e. an ELF, Script, MSI, RTF, DOC or whatever) a "-" will be shown) 
