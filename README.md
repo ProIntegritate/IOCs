@@ -15,7 +15,7 @@ For maximum compatibility (Forensics, SIEM, Threathunting platforms) the followi
 
 - rh:<md5 hash>   = File contained a RichHash, it was successfully decoded usin the XOR key.
 - nh:<md5 hash>   = File did not contain a RichHash, but the area 0x80 to 0xff was hashed with and presented instead.
-- -               = This was not an Windows executable PE file and no data was produced.
+- \-               = This was not an Windows executable PE file and no data was produced.
   
 *Note: From 2020-Jan-07 Richhashes are compatible with YARA rules (pe.rich_signature.clear_data), before that they used ANOTHER format which **wasn't compatible** and could only be used for pivoting within the data.*
 
