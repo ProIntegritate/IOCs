@@ -15,4 +15,4 @@ For maximum compatibility (Forensics, SIEM, Threathunting platforms) the followi
 - Richhash Filename
 - Richhash State: "Full header" + (size) or "No header" 
 
-*Note: From 2020-Jan-08 Richhashes are compatible with YARA rules (pe.rich_signature.clear_data), before that they used ANOTHER format which _wasn't compatible_ and could only be used for pivoting within the data. Will release proper hashes of the files with proper richheader hashes later on.*
+*Note: From 2020-Jan-08 Richhashes are compatible with YARA rules (pe.rich_signature.clear_data), before that they used ANOTHER format which _wasn't compatible_ and could only be used for pivoting within the data. Will release proper hashes of the files with proper richheader hashes later on. The new files are called iocs_V2_yyyy-mm-dd, V2 denoting that these new fields are used*
