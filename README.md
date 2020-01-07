@@ -15,4 +15,4 @@ For maximum compatibility (Forensics, SIEM, Threathunting platforms) the followi
 - Richhash Filename
 - Richhash State: "Full header" + (size) or "No header" 
 
-*Note: Richhashes were added are compatible with YARA rules from 2020-Jan-08, before that they used another format which wasn't compatible and could only be used for pivoting within the data. Will release proper hashes of the files with proper richheader hashes later on.*
+*Note: From 2020-Jan-08 Richhashes are compatible with YARA rules, before that they used ANOTHER format which _wasn't compatible_ and could only be used for pivoting within the data. Will release proper hashes of the files with proper richheader hashes later on.*
