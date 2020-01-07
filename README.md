@@ -9,8 +9,10 @@ For maximum compatibility (Forensics, SIEM, Threathunting platforms) the followi
 - FUZZYHash
 - File ID (Type)
 - Filesize
-- Richheader Similarity hash* (Added from 2020-01-01, if not found (i.e. an ELF, Script, MSI, RTF, DOC or whatever) a "-" will be shown) 
+- Richhash (Richheader), if not found (i.e. an ELF, Script, MSI, RTF, DOC or whatever) nothing will be shown here.
+  If a richhash wasn't found in the executable PE, the section betwee 0x80 to 0xff will be hasbed and "missing"
+  will be shown in state (below). It can still be used to pivot on - it's just not very precise.
+- Richhash Filename
+- Richhash State: "Full header" + (size) or "No header" 
 
-*Please note that the RichHash (Richheader Similarity hash) isn't likely to be compatible with other implementations of a PE RichHas, mostly because i have nothing to test against. Feel free to contact me on twitter if you have a 1) sort-of-standard tool that can generate a RichHash and 2) some tool that use RichHash to detect something. If you provide that, i can create a compatible version of RichHash. Right now i cannot find anything.*
-
-*So - for the moment the RichHash fields should only be used to pivot within these IOC files and not with a 3'rd party tool because lack of compatibility.*
+*Note: Richhashes were added are compatible with YARA rules from 2020-Jan-08, before that they used another format which wasn't compatible and could only be used for pivoting within the data. Will release proper hashes of the files with proper richheader hashes later on.*
