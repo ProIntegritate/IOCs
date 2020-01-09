@@ -20,3 +20,5 @@ For maximum compatibility (Forensics, SIEM, Threathunting platforms) the followi
 *Note: From 2020-Jan-07 Richhashes are compatible with YARA rules (pe.rich_signature.clear_data), before that they used ANOTHER format which **wasn't compatible** and could only be used for pivoting within the data.*
 
 *The new files are called **iocs_V2_yyyy-mm-dd**, **V2** denoting that the new fields and format are in use*
+
+Lastet stuff can be found here: https://pastebin.com/u/Purplestuff
