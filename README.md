@@ -21,4 +21,4 @@ For maximum compatibility (Forensics, SIEM, Threathunting platforms) the followi
 
 *The new files are called **iocs_V2_yyyy-mm-dd**, **V2** denoting that the new fields and format are in use*
 
-Lastet stuff can be found here: https://pastebin.com/u/Purplestuff
+Latest stuff can be found here: https://pastebin.com/u/Purplestuff
