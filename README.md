@@ -19,6 +19,7 @@ V2 addition:
 V3 addition:
 - Metahash (Hash of FileversionInfo strings)
 
+
 (1) The RichHash field  will be show as:
 
 - rh: MD5_HASH = File contained a RichHash, it was successfully decoded using the XOR key.
