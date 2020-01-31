@@ -27,13 +27,13 @@ V3 addition:
 - \- = This was not an Windows executable PE file and no data was produced.
   
 (2) The Metahash is a product of the following FileVersionInfo strings (as is, no separators):
-    CompanyName
-    FileDescription
-    InternalName
-    LegalCopyright
-    LegalTrademarks
-    OriginalFilename
-    ProductName
+    - CompanyName
+    - FileDescription
+    - InternalName
+    - LegalCopyright
+    - LegalTrademarks
+    - OriginalFilename
+    - ProductName
 
 Shown as:
 - mh: MD5_HASH = File contains FileVersionInfo (at least one string)
