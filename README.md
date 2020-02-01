@@ -13,11 +13,11 @@ For maximum compatibility (Forensics, SIEM, Threathunting platforms) the followi
 - File ID (Type)
 - Filesize
 
-V2 addition: (2020-01-07)
-- Yara compatible Richhash (1), V2. Added on 2020-01-07. (Earlier is incompatible with Yara)
+V2 addition: (Added on 2020-01-07)
+- Yara compatible Richhash (1)
 
-V3 addition: (2020-02-01)
-- Metahash (Hash of FileversionInfo strings)
+V3 addition: (Added on 2020-02-01)
+- Metahash (2) Hash of FileversionInfo strings
 
 
 (1) The RichHash field  will be show as:
