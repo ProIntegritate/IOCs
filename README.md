@@ -26,7 +26,7 @@ V3 addition: (2020-02-01)
 - nh: MD5_HASH = File did not contain a RichHash, but the area 0x80 to 0xff was hashed with and presented instead.
 - \- = This was not an Windows executable PE file and no data was produced.
   
-(2) The Metahash is a product of the following FileVersionInfo strings (as is, no separators):
+(2) The Metahash is a product of concatenating the following FileVersionInfo strings (as is, no separators):
 - CompanyName
 - FileDescription
 - InternalName
