@@ -44,4 +44,4 @@ Shown as:
 
 *Note: From 2020-Jan-07 Richhashes are compatible with YARA rules (pe.rich_signature.clear_data), before that they used ANOTHER format which **wasn't compatible** and could only be used for pivoting within the data.*
 
-
+*Note: Some of these files are legitimate files, like PuTTY which is by itself harmless and a legitemate tool, but sometimes tools are abused and become part of a malware campaign, if you find a legit tool and nobody know why it is there, you should investigate.*
