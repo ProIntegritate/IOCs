@@ -1,7 +1,7 @@
 # IOCs
 Indicators of compromise, scraped from URLHaus links and other sources
 
-Latest (daily) IOCs can be found here: https://pastebin.com/u/Purplestuff
+Recent (daily) IOCs can be found in the Recent folder.
 
 
 For maximum compatibility (Forensics, SIEM, Threathunting platforms) the following formats are supported:
