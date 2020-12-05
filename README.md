@@ -1,7 +1,7 @@
 # IOCs
 Indicators of compromise, scraped from URLHaus links and other sources
 
-Recent (daily) IOCs can be found in the Recent folder.
+Recent (daily) IOCs can be found here:  https://github.com/ProIntegritate/IOCs-Daily
 
 
 For maximum compatibility (Forensics, SIEM, Threathunting platforms) the following formats are supported:
